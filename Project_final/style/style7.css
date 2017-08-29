@@ -1,0 +1,124 @@
+.red65{
+	line-height: 8px;
+	cursor: pointer;
+	color: #5b5057;
+	font-size: 13px;
+}
+
+#bewlowpart110{
+	position: absolute;
+	top: 370px;
+}
+
+.red65:hover{
+	color: #c4b8c0;
+}
+
+.red65 a:hover{
+	color: #c4b8c0;
+}
+
+.red65 a{
+	text-decoration:none;
+	color: #5b5057;
+}
+
+#bewlowpart120{
+	position: absolute;
+	top: 392px;
+	font-size: 13px;
+	line-height: 7px;
+}
+
+#bewlowpart120 a{
+	text-decoration:none;
+	color: #5b5057;
+}
+
+#bewlowpart120 absolute:hover{
+	color: #c4b8c0;
+}
+
+#message66{
+	position: relative;
+	top: 40px;
+	font-size: 18px;
+}
+
+#mob67{
+	position: relative;
+	top: 80px;
+	font-size: 15px;
+}
+
+#form68{
+	position: relative;
+	top: 75px;
+}
+
+#token69{
+	width: 100px;
+	padding-right: 10px;
+}
+
+#submit70{
+	width: 150px;
+	position: absolute;
+	top: 1px;
+	background-color: #f44523;
+	height: 44px;
+	left: 140px;
+	text-align: center;
+	letter-spacing: 2px;
+	border: 3px solid #f44523;
+	font-size: 15px;
+	color: #ffad7f;
+}
+
+#submit70:hover{
+	cursor: pointer;
+	color: #f9ebe3;
+}
+
+#submit70:focus{
+	background-color: #bc1e00; 
+	border-color: #bc1e00;
+}
+
+#token69:focus{
+	background-color: #f4eff1;
+	color: #f44523;
+}
+
+#comment70{
+	position: absolute;
+	top: 220px;
+	font-size: 18px;
+}
+
+
+#spin79{
+	color: white;
+	font-size: 28px;
+	position: relative;
+	top: 62px;
+	left: 145px;
+	visibility: hidden;
+}
+
+#below80{
+	position: relative;
+	top: 170px;
+	line-height: 10px;
+	font-size: 13px;
+	left: 40px;
+}
+
+#below80 a{
+	text-decoration:none;
+	color: #5b5057;
+}
+
+#below80 a:hover{
+	color: #c4b8c0;
+}

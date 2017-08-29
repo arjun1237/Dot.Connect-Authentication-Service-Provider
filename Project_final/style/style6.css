@@ -1,0 +1,201 @@
+#heading17{
+	position: relative;
+	/*top:20px;*/
+	font-size: 22px;
+}
+
+#total17{
+	position: relative;
+	left: 40px;
+}
+
+#email17{
+	position: relative;
+	top: 35px;
+}
+
+#toupdate{
+	position: relative;
+	top: 10px;
+	font-size: 15px;
+	display: block;
+}
+
+#update17{
+	position: relative;
+	top: 20px;
+}
+
+#submit17{
+	position: relative;
+	top: 90px;
+	letter-spacing: 5px;
+	background-color: #f44523;
+	letter-spacing: 2px;
+	border: 3px solid #f44523;
+	font-size: 15px;
+	color: #ffad7f;
+	text-align: center;
+}
+
+#submit17:hover{
+	cursor: pointer;
+	color: #f9ebe3;
+}
+
+#div117{
+	position: relative;
+	top: 20px;
+}
+
+#belowpart17{
+	position: absolute;
+	top: 390px;
+	font-size: 13px;
+	line-height: 6px;
+}
+
+#belowpart17 a{	
+	text-decoration: none;
+	color: #5b5057;
+}
+
+#belowpart17 a:hover{
+	color: #c4b8c0;
+}
+
+#spinner17{
+	color: white;
+	position: absolute;
+	top: 310px;
+	left: 128px;
+	font-size: 30px;
+	visibility: hidden;
+}
+
+.cross17{
+	position: absolute;
+	top: 123px;
+	font-size: 25px;
+	left: 338px;
+	color: #e01d1d;
+	visibility: hidden;
+}
+
+#correct127{
+	position: absolute;
+	top: 182px;
+}
+
+#warning17{
+	position: absolute;
+	top: 167px;
+	color: #e01d1d;
+	font-size: 13px;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+/*css codes from here down borrowed from https://codepen.io*/
+
+.container{
+  /*display: block;*/
+  position: relative;
+  top: 3px;
+  /*margin: 40px auto;*/
+  /*height: auto;*/
+  /*width: 500px;*/
+  /*padding: 20px;*/
+}
+
+.container ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	/*overflow: auto;*/
+}
+
+.container ul li{
+  /*color: #AAAAAA;*/
+  display: block;
+  position: relative;
+  float: left;
+  /*width: 100%;*/
+  /*height: 100px;*/
+}
+
+.container ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.container ul li label{
+  display: block;
+  position: relative;
+  /*font-weight: 300;*/
+  font-size: 14px;
+  /*padding: 25px 25px 25px 80px;*/
+  padding-right: 40px;
+  padding-left: 25px;
+  padding-top: 4px;
+  /*margin: 10px auto;*/
+  /*height: 32px;*/
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+.container ul li:hover label{
+	color: #FFFFFF;
+}
+
+.container ul li .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  top: 2px;
+  /*left: 20px;*/
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+
+.container ul li:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+.container ul li .check::before {
+  display: block;
+  position: absolute;
+	content: '';
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  top: 3px;
+	left: 3px;
+  margin: auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}

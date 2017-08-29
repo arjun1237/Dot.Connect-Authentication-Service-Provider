@@ -1,0 +1,193 @@
+#compReg{
+	font-size: 22px;
+}
+
+.companyReg{
+	position: relative;
+	left: 40px;
+	width: 280px;
+	margin-bottom: 13px;
+}
+
+.sec1{
+	position: relative;
+	display: inline;
+	width: 107px;
+}
+
+.writing1{	
+	position: relative;
+	left: 40px;
+	top: -6px;
+}
+
+#signIn2{
+	position: absolute;
+	background-color: #f44523;
+	width: 175px;
+	left: 65px;
+	bottom: -28px;
+	text-align: center;
+	letter-spacing: 2px;
+	border: 3px solid #f44523;
+	font-size: 15px;
+	color: #ffad7f;
+}
+
+#signIn2:hover{
+	cursor: pointer;
+	color: #f9ebe3;
+}
+
+#wrongCred1{
+	position: relative;
+	left: 40px;
+	bottom: 18px;
+	color: #ff2121;
+	font-size: 13px;
+}
+
+#login1{
+	position: relative;
+	top: -20px;
+}
+
+#poc{
+	font-size: 14px;
+}
+
+#spinner11{
+	color: #f7e5d7;
+	position: absolute;
+	left: 143px;
+	top: 399px;
+	font-size: 25px;
+	pointer-events: none;
+	visibility: hidden;
+}
+
+
+#greenChecks1{
+	position: relative;
+	float: right;
+	left: 440px;
+	top: 110px;
+	font-size: 23px;
+	visibility: hidden;
+}
+
+.greenCh{
+	color: #e01d1d;
+	margin-bottom: 33px;
+}
+
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #594f55;
+}
+
+.tip-left {
+  top: 14px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+}
+
+.dialogbox11 .body11 {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #272125;
+  border-radius: 3px;
+  border: 5px solid #594f55;
+  left: 1000px;
+  top: 240px;
+}
+
+.body11 .message11 {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #93898d;
+  position: relative;
+  bottom: 390px;
+}
+
+#msgBox11{
+	visibility: hidden;
+}
+
+#pavilion{
+	position: absolute;
+	top: 372px;
+	left: 878px;
+}
+
+.pav11{
+	position: relative;
+	top: 10px;
+	line-height: 10px;
+	display: inline;
+	font-family: sans-serif,Arial; 
+	font-size: 13px;
+	text-align: left;
+}
+
+.top78{
+	position: relative;
+	top: 0px;
+}
+
+#pavilion a{
+	text-decoration:none;
+	color: #5b5057;
+}
+
+#pavilion a:hover{
+	color: #c4b8c0;
+}
+
+#heading75{
+	font-size: 25px;
+	position: relative;
+	left: 40px;
+	top: 90px;
+}
+
+#input76{
+	position: relative;
+	left: 40px;
+}
+
+#email77{
+	margin-bottom: 10px;
+	width: 190px;
+	display: block;
+}
+
+#submit78{	
+	background-color: #f44523;
+	letter-spacing: 2px;
+	border: 3px solid #f44523;
+	font-size: 15px;
+	color: #ffad7f;
+	text-align: center;
+	width: 250px;
+}
+
+#submit78:hover{
+	cursor: pointer;
+	color: #f9ebe3;
+}
+
+
+#submit78:focus{
+	background-color: #bc1e00; 
+	border-color: #bc1e00;
+}

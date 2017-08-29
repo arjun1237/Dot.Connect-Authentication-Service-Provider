@@ -1,0 +1,193 @@
+#header12{
+	position: relative;
+	top: 80px;
+	font-size: 22px;
+}
+
+input{
+	position: relative;
+	top: 100px;
+	width: 220px;
+}
+
+#submit12{
+	/*position: relative;*/
+	top: 120px;
+	background-color: #f44523;
+	letter-spacing: 2px;
+	border: 3px solid #f44523;
+	font-size: 15px;
+	color: #ffad7f;
+	text-align: center;
+}
+
+
+#submit12:hover{
+	cursor: pointer;
+	color: #f9ebe3;
+}
+
+#spinner12{
+	color: #f9ebe3;
+	font-size: 30px;
+	position: relative;
+	top: 82px;
+	left: 95px;
+	visibility: hidden;
+}
+
+#layout221{
+	position: relative;
+	top: -10px;
+}
+
+#heading22{
+	position: relative;
+	left: 40px;
+	font-size: 22px;
+}
+
+#form25{
+	position: relative;
+	left: 40px;
+	top: -90px;
+}
+
+#form25 input{
+	margin-bottom: 15px;
+	/*height: 15px;*/
+	/*border-color: white;*/
+}
+
+.input28{
+	width: 265px;
+}
+
+#fname23, #lname24{
+	position: relative;
+	display: inline;
+	width: 100px;
+}
+
+#password31{
+	display: block;
+}
+
+#code32{	
+	width: 60px;
+	padding-right: 10px;
+	/*border-color: white;*/
+}
+
+#mob33{
+	display: inline;
+	width: 200px;
+	padding-right: 10px;
+}
+
+#submit35{
+	position: relative;
+	top: 133px;
+	width: 175px;
+	display: block;
+	background-color: #f44523;	
+	text-align: center;
+	letter-spacing: 2px;
+	border: 3px solid #f44523;
+	font-size: 15px;
+	color: #ffad7f;
+}
+
+#submit35:hover{
+	cursor: pointer;
+	color: #f9ebe3;
+}
+
+#pavilion40{
+	position: absolute;
+	top: 375px;
+	left: 280px;
+}
+
+#pavilion40 a{
+	text-decoration:none;
+	color: #5b5057;
+}
+
+#pavilion40 a:hover{
+	color: #c4b8c0;
+}
+
+#spin41{
+	position: relative;
+	font-size: 28px;
+	left: 114px;
+	top: -10px;
+	color: white;
+	visibility: hidden;
+}
+
+#warning42{
+	font-size: 13px;
+	color: #e01d1d;
+	position: relative;
+	top: -105px;
+	left: 40px;
+	/*visibility: hidden;*/
+}
+
+
+
+
+/*comment boz*/
+
+.container50{
+	position: absolute;
+	top: 200px;
+	left: 400px;
+}
+
+.tip50 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #594f55;
+	top: 13px;
+	left: -25px;
+}
+
+.tip-left50 {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+  /*left: -35px;*/
+}
+
+.dialogbox50 .body50 {
+  position: relative;
+  /*max-width: 180px;*/
+  height: auto;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #272125;
+  border-radius: 3px;
+  border: 5px solid #594f55;  
+  /*top: -350px;*/
+  /*left: 380px;*/
+  width: 147px;
+}
+
+.body50 .message50 {
+  /*min-height: 30px;*/
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #93898d;
+}
+
+
+#msgbox50{
+	visibility: hidden;
+}
